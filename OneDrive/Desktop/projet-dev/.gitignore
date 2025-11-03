@@ -1,0 +1,5 @@
+.dist/
+src/
+*.txt
+*.pdf
+node_modules/
