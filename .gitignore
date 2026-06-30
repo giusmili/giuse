@@ -1,0 +1,84 @@
+# ── Windows system files ─────────────────────────────────────
+NTUSER.DAT*
+ntuser.*
+desktop.ini
+*.lnk
+*.tmp
+~$*
+
+# ── User profile directories ──────────────────────────────────
+AppData/
+3D Objects/
+Contacts/
+CrossDevice/
+Favorites/
+Links/
+Saved Games/
+Searches/
+IntelGraphicsProfiles/
+PaceKeyChain
+Desktop/
+Documents/
+Claude/
+
+# ── OneDrive Desktop — fichiers hors projets ──────────────────
+OneDrive/Desktop/matrice_ponderation_CRM.xlsx
+OneDrive/Desktop/urssaf-rectification-cot/
+
+# ── App configs / dotfiles ────────────────────────────────────
+.ableton-mcp/
+.accessibility.properties
+.angular-config.json
+.antigravity/
+.bash_history
+.bun/
+.cache/
+.claude.json
+.claude.json.backup
+.claude/
+.codex/
+.config/
+.copilot/
+.crossnote/
+.docker/
+.gemini/
+.git-certs/
+.gitconfig
+.gitmoji/
+.idlerc/
+.koala/
+.lesshst
+.local/
+.mume/
+.mureka/
+.node_repl_history
+.npmrc
+.openshot_qt/
+.pencil/
+.python_history
+.quokka/
+.sbx-denybin/
+.ssh/
+.vscode-shared/
+.vscode/
+.vuerc
+
+# ── User document folders ─────────────────────────────────────
+OneDrive/Documents/
+OneDrive/Music/
+OneDrive/Pictures/
+OneDrive/Videos/
+OneDrive - AD-Education/
+OneDrive/.849C9593-D756-4E56-8D6E-42412F2A707B
+OneDrive/Coffre-fort.lnk
+
+# ── Misc ──────────────────────────────────────────────────────
+composer/
+example-app/
+pipx/
+wsl
+set
+server.php
+package-lock.json
+cles_putty/
+Esistenza.pdf
