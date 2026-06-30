@@ -13,8 +13,25 @@ html {
 
 /* ── Body / base ───────────────────────────────────────────── */
 body {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
+  font-size: 1.7rem;
+}
+
+/* ── Main layout ───────────────────────────────────────────── */
+main {
+  max-width: 80rem;
+}
+
+/* ── Main title ────────────────────────────────────────────── */
+h1 {
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+
+/* ── Add button ────────────────────────────────────────────── */
+#add-btn {
+  padding: 1.2rem 2.8rem;
   font-size: 1.6rem;
 }
 
@@ -22,7 +39,7 @@ body {
 .filter-btn {
   padding: 0.64rem 1.76rem;
   border-radius: 999.9rem;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 500;
   color: #94a3b8;
   background: transparent;
@@ -102,7 +119,7 @@ body {
 /* ── Task label ────────────────────────────────────────────── */
 .task-label {
   flex: 1;
-  font-size: 1.44rem;
+  font-size: 1.54rem;
   color: #e2e8f0;
   cursor: pointer;
   word-break: break-word;
@@ -172,6 +189,17 @@ body {
 .task-item.removing {
   animation: fadeOut 0.25s ease forwards;
   overflow: hidden;
+}
+
+/* ── Progress labels ───────────────────────────────────────── */
+#progress-label,
+#progress-percent {
+  font-size: 1.6rem;
+}
+
+/* ── Input ─────────────────────────────────────────────────── */
+#task-input {
+  font-size: 1.6rem;
 }
 
 /* ── Input focus glow ──────────────────────────────────────── */
