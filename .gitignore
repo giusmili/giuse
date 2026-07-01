@@ -22,6 +22,11 @@ Documents/
 Claude/
 
 # ── OneDrive Desktop — fichiers hors projets ──────────────────
+# "Desktop/" ci-dessus exclut aussi OneDrive/Desktop en entier ; on
+# rouvre le dossier puis on ré-exclut tout sauf les projets voulus.
+!OneDrive/Desktop/
+OneDrive/Desktop/*
+!OneDrive/Desktop/classe-virtuelle/
 OneDrive/Desktop/matrice_ponderation_CRM.xlsx
 OneDrive/Desktop/urssaf-rectification-cot/
 
