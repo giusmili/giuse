@@ -87,3 +87,7 @@ server.php
 package-lock.json
 cles_putty/
 Esistenza.pdf
+
+# ── Dossiers générés / téléchargements ───────────────────────
+.supabase/
+Downloads/
